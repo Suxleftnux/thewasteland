@@ -97,8 +97,6 @@
 	switch(loot)
 		if(1)
 			new /obj/item/shared_storage/red(src)
-		if(2)
-			new /obj/item/reagent_containers/glass/bottle/potion/flight(src)
 		if(3)
 			new /obj/item/ship_in_a_bottle(src)
 		if(4)
@@ -136,8 +134,6 @@
 	switch(loot)
 		if(1)
 			new /obj/item/shared_storage/red(src)
-		if(2)
-			new /obj/item/reagent_containers/glass/bottle/potion/flight(src)
 		if(3)
 			new /obj/item/ship_in_a_bottle(src)
 		if(4)
@@ -691,6 +687,7 @@
 	new /obj/effect/decal/cleanable/ash(get_turf(user))
 	qdel(src)
 
+/*
 
 //Potion of Flight
 /obj/item/reagent_containers/glass/bottle/potion
@@ -708,7 +705,7 @@
 	else
 		icon_state = "potionflask_empty"
 
-/*
+
 /datum/reagent/flightpotion
 	name = "Flight Potion"
 	description = "Strange mutagenic compound of unknown origins."
