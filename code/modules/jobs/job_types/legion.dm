@@ -700,14 +700,13 @@ commented out pending rework*/
 
 /datum/outfit/loadout/expambusher
 	name = "Ambusher"
-	suit_store = /obj/item/gun/ballistic/revolver/ballisticfist
+	suit_store = /obj/item/gun/ballistic/automatic/smg/mp5
 	glasses = /obj/item/clothing/glasses/sunglasses/big
 	backpack_contents = list(
-		/obj/item/ammo_box/shotgun/buck = 2,
 		/obj/item/bottlecap_mine = 1,
+		/obj/item/ammo_box/magazine/uzim9mm = 2,
 		/obj/item/restraints/legcuffs/bola = 1,
-		/obj/item/reagent_containers/pill/patch/bitterdrink = 2,
-		/obj/item/restraints/legcuffs/beartrap = 2,
+		/obj/item/restraints/legcuffs/beartrap = 1,
 		)
 
 /datum/outfit/loadout/expsniper
@@ -719,6 +718,7 @@ commented out pending rework*/
 		/obj/item/book/granter/trait/rifleman = 1,
 		/obj/item/attachments/scope = 1,
 		/obj/item/grenade/smokebomb = 1,
+		/obj/item/restraints/legcuffs/beartrap = 2,
 		/obj/item/reagent_containers/pill/patch/bitterdrink = 2,
 		)
 
